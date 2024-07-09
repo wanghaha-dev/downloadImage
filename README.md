@@ -4,11 +4,11 @@
 go run main.go -h
 
 Usage 
-  -count int                                                 
-        goroutine count default 50 (default 50)              
-  -dir string                                                
-        saveDir                                              
-  -img string                                                
+  -count int
+        goroutine count default 50 (default 50)
+  -dir string
+        saveDir default dist (default "dist")
+  -img string
         images file default images.txt (default "images.txt")
 ```
 
