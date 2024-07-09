@@ -17,7 +17,7 @@ import (
 func main() {
 	flag.IntVar(&common.GoCount, "count", 50, "goroutine count default 50")
 	flag.StringVar(&common.ImgFile, "img", "images.txt", "images file default images.txt")
-	flag.StringVar(&common.SaveDir, "dir", "", "saveDir")
+	flag.StringVar(&common.SaveDir, "dir", "dist", "saveDir default dist")
 
 	flag.Parse()
 
